@@ -41,7 +41,8 @@ m <- leaflet(data = mundo) %>%
               popup = casecountpopup) %>%
   addLegend(position = "bottomleft",pal = pal, values = ~n, title = "<strong>Landslide</strong><br>2007-2016") %>%
   setView(lat = 38.0110306, lng = -110.4080342, zoom = 3)
-m
+m %>% addProviderTiles(providers$CartoDB.Positron)
+
 
 
 
