@@ -15,7 +15,7 @@ url_land <- 'https://raw.githubusercontent.com/frm1789/landslide-ea/master/lands
 df_land <- read_csv(url(url_land))
 df_cou <- dplyr::count(df_land, country_name, id_two = df_land$country_code)
 
-## Adding three letters code
+## In order to match both dataset, I am adding three letters code
 url_code <- 'https://raw.githubusercontent.com/frm1789/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv'
 df_code <- read_csv(url(url_code))
 df_cou <- mutate(df_cou, id = (df_cou$id = countrycode(df_cou$country_name, 'country.name', 'iso3c')))
@@ -28,7 +28,6 @@ mundo@data$name <- as.character(mundo@data$name)
 ##Adding colors
 bins <- c(0, 10, 20, 50, 100, 200, 500, 1000, Inf)
 pal <- colorBin("Purples", domain = mundo@data$n, bins = bins)
-
 
 casecountpopup <- paste0("<strong>", mundo@data$name, "</strong>", "<br>", "Number of Landslides: ", mundo@data$n)
 
