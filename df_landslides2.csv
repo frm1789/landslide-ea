@@ -33,7 +33,6 @@ BTN,Bhutan,20
 BWA,Botswana,0
 CAF,Central African Republic,0
 CAN,Canada,174
-CEB,Central Europe and the Baltics,0
 CHE,Switzerland,19
 CHI,Channel Islands,0
 CHL,Chile,14
@@ -46,24 +45,17 @@ COL,Colombia,101
 COM,Comoros,0
 CPV,Cabo Verde,0
 CRI,Costa Rica,76
-CSS,Caribbean small states,0
 CUB,Cuba,3
 CUW,Curacao,0
 CYM,Cayman Islands,0
 CYP,Cyprus,0
-CZE,Czech Republic,2
-CZE,Czech Republic,1
+CZE,Czech Republic,3
 DEU,Germany,3
 DJI,Djibouti,0
 DMA,Dominica,16
 DNK,Denmark,0
 DOM,Dominican Republic,17
 DZA,Algeria,1
-EAP,East Asia & Pacific (excluding high income),0
-EAR,Early-demographic dividend,0
-EAS,East Asia & Pacific,0
-ECA,Europe & Central Asia (excluding high income),0
-ECS,Europe & Central Asia,0
 ECU,Ecuador,32
 EGY,"Egypt, Arab Rep.",1
 EMU,Euro area,0
@@ -71,8 +63,6 @@ ERI,Eritrea,0
 ESP,Spain,14
 EST,Estonia,0
 ETH,Ethiopia,2
-EUU,European Union,0
-FCS,Fragile and conflict affected situations,0
 FIN,Finland,0
 FJI,Fiji,35
 FRA,France,22
@@ -93,22 +83,14 @@ GRL,Greenland,0
 GTM,Guatemala,82
 GUM,Guam,1
 GUY,Guyana,0
-HIC,High income,0
 HKG,"Hong Kong SAR, China",2
 HND,Honduras,39
-HPC,Heavily indebted poor countries (HIPC),0
 HRV,Croatia,2
 HTI,Haiti,22
 HUN,Hungary,0
-IBD,IBRD only,0
-IBT,IDA & IBRD total,0
-IDA,IDA total,0
-IDB,IDA blend,0
 IDN,Indonesia,355
-IDX,IDA only,0
 IMN,Isle of Man,4
 IND,India,1265
-INX,Not classified,0
 IRL,Ireland,23
 IRN,"Iran, Islamic Rep.",6
 IRQ,Iraq,0
@@ -127,21 +109,14 @@ KIR,Kiribati,0
 KNA,St. Kitts and Nevis,2
 KOR,"Korea, Rep.",11
 KWT,Kuwait,0
-LAC,Latin America & Caribbean (excluding high income),0
 LAO,Lao PDR,4
 LBN,Lebanon,9
 LBR,Liberia,2
 LBY,Libya,0
 LCA,St. Lucia,8
-LCN,Latin America & Caribbean,0
-LDC,Least developed countries: UN classification,0
-LIC,Low income,0
 LIE,Liechtenstein,0
 LKA,Sri Lanka,75
-LMC,Lower middle income,0
-LMY,Low & middle income,0
 LSO,Lesotho,0
-LTE,Late-demographic dividend,0
 LTU,Lithuania,0
 LUX,Luxembourg,2
 LVA,Latvia,0
@@ -152,15 +127,12 @@ MCO,Monaco,0
 MDA,Moldova,0
 MDG,Madagascar,7
 MDV,Maldives,0
-MEA,Middle East & North Africa,0
 MEX,Mexico,86
 MHL,Marshall Islands,0
-MIC,Middle income,0
 MKD,"Macedonia, FYR",4
 MLI,Mali,0
 MLT,Malta,0
 MMR,Myanmar,44
-MNA,Middle East & North Africa (excluding high income),0
 MNE,Montenegro,1
 MNG,Mongolia,1
 MNP,Northern Mariana Islands,0
@@ -180,9 +152,7 @@ NOR,Norway,22
 NPL,Nepal,481
 NRU,Nauru,0
 NZL,New Zealand,106
-OED,OECD members,0
 OMN,Oman,1
-OSS,Other small states,0
 PAK,Pakistan,142
 PAN,Panama,44
 PER,Peru,58
@@ -190,14 +160,10 @@ PHL,Philippines,675
 PLW,Palau,0
 PNG,Papua New Guinea,21
 POL,Poland,2
-PRE,Pre-demographic dividend,0
 PRI,Puerto Rico,7
 PRK,"Korea, Dem. People’s Rep.",7
 PRT,Portugal,6
 PRY,Paraguay,1
-PSE,West Bank and Gaza,0
-PSS,Pacific island small states,0
-PST,Post-demographic dividend,0
 PYF,French Polynesia,0
 QAT,Qatar,0
 ROU,Romania,3
@@ -214,7 +180,6 @@ SLV,El Salvador,22
 SMR,San Marino,0
 SOM,Somalia,0
 SRB,Serbia,5
-SSA,Sub-Saharan Africa (excluding high income),0
 SSD,South Sudan,0
 SSF,Sub-Saharan Africa,0
 SST,Small states,0
@@ -229,27 +194,20 @@ SYC,Seychelles,0
 SYR,Syrian Arab Republic,0
 TCA,Turks and Caicos Islands,0
 TCD,Chad,0
-TEA,East Asia & Pacific (IDA & IBRD countries),0
-TEC,Europe & Central Asia (IDA & IBRD countries),0
 TGO,Togo,0
 THA,Thailand,77
 TJK,Tajikistan,20
 TKM,Turkmenistan,0
-TLA,Latin America & the Caribbean (IDA & IBRD countries),0
 TLS,Timor-Leste,2
-TMN,Middle East & North Africa (IDA & IBRD countries),0
 TON,Tonga,0
-TSA,South Asia (IDA & IBRD),0
-TSS,Sub-Saharan Africa (IDA & IBRD countries),0
 TTO,Trinidad and Tobago,65
 TUN,Tunisia,0
 TUR,Turkey,21
 TUV,Tuvalu,0
-TWN,0,68
+TWN,Taiwan,68
 TZA,Tanzania,5
 UGA,Uganda,45
 UKR,Ukraine,3
-UMC,Upper middle income,0
 URY,Uruguay,0
 USA,United States,2992
 UZB,Uzbekistan,1
