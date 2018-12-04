@@ -1,7 +1,4 @@
-install.packages("fastmatch")
 library(fastmatch)
-
-
 
 df$landslide_size = fmatch(df$landslide_size, c("small","medium", "large","very_large", "catastrophic", "unknown","NA"))
 
@@ -26,21 +23,12 @@ set = c("unknown","above_road","natural_slope", "urban","below_road","mine","abo
 
 df = df[ , -which(names(df) %in% c("X1","injury_count","country_name","year"))]
 
-Remember the 1s are because everything is perfectly correlated with itself, 
-and the NAs are because there are NAs in your variables. To avoid that we are using: use = "complete.obs"
+#Remember the 1s are because everything is perfectly correlated with itself, 
+#and the NAs are because there are NAs in your variables. To avoid that we are using: use = "complete.obs"
 
 v_cor = cor(df, use = "complete.obs")
 
-
-install.packages("corrplot")
-install.packages("PerformanceAnalytics")
-library("PerformanceAnalytics")
-library(corrplot)
-corrplot(v_cor, type = "upper", order = "hclust", 
-         tl.col = "black", tl.srt = 45)
-chart.Correlation(df, histogram=TRUE, pch=19)
-
-heatmap(x = v_cor, symm = TRUE)
-
+corrplot(v_cor, method="square",type = "upper", order = "hclust", 
+         tl.col = "black")
 
 
