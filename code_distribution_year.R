@@ -6,10 +6,7 @@ library(DataExplorer)
 url1 = "https://raw.githubusercontent.com/frm1789/landslide-ea/master/global_landslide_catalog_export.csv"
 df <- read_csv(url1)
 
-v <- c("1/","2/","3/","4/","5/","6/","7/","8/","9/")
 df$year <- substring(df$event_date, 9, 10) #year
-
-## 1.2 How many events by year?
 count_byyear <- dplyr::count(df, year = df$year)
 
 a <- ggplot(df, aes(df$year)) +
